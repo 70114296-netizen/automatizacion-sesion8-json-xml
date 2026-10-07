@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispositivos>
+    <router id="1">
+        <hostname>Router-Principal</hostname>
+        <location>Oficina Central</location>
+        <interfaces>
+            <interface name="GigabitEthernet0/0">
+                <ip>192.168.1.1</ip>
+                <status>up</status>
+            </interface>
+            <interface name="GigabitEthernet0/1">
+                <ip>10.0.0.1</ip>
+                <status>down</status>
+            </interface>
+        </interfaces>
+    </router>
+</dispositivos>

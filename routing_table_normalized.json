@@ -1,0 +1,25 @@
+{
+    "tabla_enrutamiento": {
+        "total_rutas": 3,
+        "rutas": [
+            {
+                "destino": "10.10.0.0/24",
+                "siguiente_salto": "192.168.1.254",
+                "protocolo": "OSPF",
+                "metrica": 110
+            },
+            {
+                "destino": "172.16.0.0/16",
+                "siguiente_salto": "10.0.0.2",
+                "protocolo": "BGP",
+                "metrica": 20
+            },
+            {
+                "destino": "0.0.0.0/0",
+                "siguiente_salto": "192.168.1.1",
+                "protocolo": "Static",
+                "metrica": 1
+            }
+        ]
+    }
+}
